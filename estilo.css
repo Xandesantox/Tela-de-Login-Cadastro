@@ -5,7 +5,7 @@
     font-family: 'Share Tech Mono', sans-serif;
 }
     body {
-        background-image: url(https://i.imgur.com/Ie5Idbo.png);
+        background-image: url(https://images.pexels.com/photos/614969/pexels-photo-614969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -53,7 +53,7 @@ h1{
     }
 
         .label-float input:focus{
-            border-bottom: 2px solid #8D1B1B;
+            border-bottom: 2px solid #493840;
         }
             .label-float label{
                 color: #3A0303;
@@ -65,7 +65,8 @@ h1{
                 transition: all 0.3s ease-out;
             }
 
-            .label-float input:focus + label{
+            .label-float input:focus + label,
+            .label-float input:valid + label{
             font-size: 13px;
             margin-top: 0;
             color: #8D1B1B;    
